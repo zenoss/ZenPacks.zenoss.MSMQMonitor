@@ -8,7 +8,7 @@ AUTHOR = "Zenoss"
 LICENSE = ""
 NAMESPACE_PACKAGES = ['ZenPacks', 'ZenPacks.zenoss']
 PACKAGES = ['ZenPacks', 'ZenPacks.zenoss', 'ZenPacks.zenoss.MSMQMonitor']
-INSTALL_REQUIRES = ['ZenPacks.zenoss.WindowsMonitor', 'ZenPacks.zenoss.PySamba', 'Zenoss >= 3.0']
+INSTALL_REQUIRES = ['ZenPacks.zenoss.WindowsMonitor', 'ZenPacks.zenoss.PySamba']
 COMPAT_ZENOSS_VERS = ">=3.0"
 PREV_ZENPACK_NAME = ""
 # STOP_REPLACEMENTS
