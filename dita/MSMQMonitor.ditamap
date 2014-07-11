@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+  PUBLIC "urn:pubid:zenoss.com:doctypes:dita:dtd:map" "map.dtd">
+<map>
+   <title>MSMQMonitor</title>
+   <topicref href="topics/MSMQMonitor.dita">
+      <topicref href="topics/MSMQMonitor_ref-Prerequisites.dita"/>
+      <topicref href="topics/MSMQMonitor_task-Configuration.dita">
+         <topicref href="topics/MSMQMonitor_task-Configuration_task-Automatically-Monitor-Queues-on-All-Servers.dita"/>
+         <topicref href="topics/MSMQMonitor_task-Configuration_task-Monitor-Queues-on-Specific-Servers.dita"/>
+         <topicref href="topics/MSMQMonitor_task-Configuration_ref-Fine-Tuning-Queue-Monitoring.dita"/>
+      </topicref>
+      <topicref href="topics/MSMQMonitor_ref-Daemons.dita"/>
+   </topicref>
+</map>

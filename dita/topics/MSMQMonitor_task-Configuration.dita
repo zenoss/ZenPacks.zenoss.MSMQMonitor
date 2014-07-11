@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "urn:pubid:zenoss.com:doctypes:dita:dtd:task" "task.dtd">
+<task id="d43e81">
+  <title>Configuration</title>
+  <taskbody>
+    <prereq>To monitor MSMQ queues, set up proper credentials
+      so that <ph conkeyref="names/platform"/> can remotely
+      monitor the target Windows servers. For more information, 
+      refer to <xref keyref="reference-ZenPacks.zenoss.WindowsMonitor"/>.
+    </prereq>
+  <context>
+    <p>This ZenPack supports two approaches to enable MSMQ queue monitoring, 
+    as detailed in the next sections.</p>
+  </context>
+  </taskbody>
+</task>

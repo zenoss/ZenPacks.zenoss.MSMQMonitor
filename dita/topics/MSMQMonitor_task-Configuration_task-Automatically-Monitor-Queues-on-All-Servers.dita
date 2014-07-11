@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task
+  PUBLIC "urn:pubid:zenoss.com:doctypes:dita:dtd:task" "task.dtd">
+<task id="d43e92"><title>Automatically Monitor Queues on All Servers</title><taskbody><context><p>The easiest way to configure <ph conkeyref="names/platform"/> to monitor your queues
+      is to enable queue discovery for the entire
+      <uicontrol outputclass="guilabel">/Server/Windows</uicontrol> device class. Within 12 hours
+      <ph conkeyref="names/platform"/> will have
+      automatically discovered all of the queues available to be monitored and
+      begun monitoring how many messages are in each queue and creating
+      threshold events if they exceed 10,000 messages.</p><p>Perform the following steps to enable queue discovery for all
+      Windows servers.</p></context><steps-informal><ol>
+        <li>
+          <p>Navigate to the <uicontrol outputclass="guilabel">/Server/Windows</uicontrol> device
+          class.</p>
+        </li>
+
+        <li>
+          <p>Click <b>Details</b>.</p>
+        </li>
+
+        <li>
+          <p>Select Modeler Plugins from the left panel.</p>
+        </li>
+
+        <li>
+          <p>Click <uicontrol outputclass="guibutton">Add Fields</uicontrol>.</p>
+        </li>
+
+        <li>
+          <p>Drag <menucascade><uicontrol outputclass="guimenuitem">zenoss.wmi.MSMQQueueMap</uicontrol></menucascade> from
+          the available fields to the list of plugins.</p>
+        </li>
+
+        <li>
+          <p>Click <uicontrol outputclass="guibutton">Save</uicontrol>.</p>
+        </li>
+
+        <li>
+          <p>Wait about 12 hours for all Windows servers to be
+          remodeled.</p>
+        </li>
+      </ol></steps-informal></taskbody></task>

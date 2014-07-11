@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task
+  PUBLIC "urn:pubid:zenoss.com:doctypes:dita:dtd:task" "task.dtd">
+<task id="d43e174"><title>Monitor Queues on Specific Servers</title><taskbody><context><p>If you do not want <ph conkeyref="names/platform"/> automatically monitoring queues on all of your Windows
+      servers and would rather point it to specific servers you can do so by
+      performing the following steps on each server you're interested
+      in.</p></context><steps-informal><ol>
+        <li>
+          <p>Navigate to the device.</p>
+        </li>
+
+        <li>
+          <p>Select Modeler Plugins from the left panel.</p>
+        </li>
+
+        <li>
+          <p>Click <uicontrol outputclass="guibutton">Add Fields</uicontrol>.</p>
+        </li>
+
+        <li>
+          <p>Drag <menucascade><uicontrol outputclass="guimenuitem">zenoss.wmi.MSMQQueueMap</uicontrol></menucascade> from
+          the available fields to the list of plugins.</p>
+        </li>
+
+        <li>
+          <p>Click <uicontrol outputclass="guibutton">Save</uicontrol>.</p>
+        </li>
+
+        <li>
+          <p>Select Model Device from the Action menu.</p>
+        </li>
+      </ol></steps-informal></taskbody></task>

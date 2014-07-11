@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference
+  PUBLIC "urn:pubid:zenoss.com:doctypes:dita:dtd:reference" "reference.dtd">
+<reference id="d43e235"><title>Fine-Tuning Queue Monitoring</title><refbody><section><p>By default <ph conkeyref="names/platform"/>
+      will automatically monitor all queues on a server that is running the
+      MSMQ services. Each queue will also have a default 10,000 maximum
+      threshold applied to it. This means that an event will be created when
+      the number of messages in a single queue exceeds 10,000.</p><note>
+        <p>By default queues with names beginning with <userinput outputclass="type">tcp</userinput>
+        will not be discovered. You can change this behavior with the
+        <keyword outputclass="property">zMSMQIgnoreQueues</keyword> property. This property is a
+        regular expression and any queues that match it will not be
+        discovered.</p>
+      </note><p>You can change the maximum messages threshold on a per-queue basis
+      by changing the <uicontrol outputclass="guilabel">Queues Messages Threshold</uicontrol> property.
+      Leaving this value blank will have the result of no threshold being
+      applied.</p></section></refbody></reference>
